@@ -1,1 +1,10 @@
-I created the original HangMan game. The game is made in CodeBlock's using only C++. The project was made using STL, most specific vector class and string class and OOP. I made a class containing every function operating the word you give. The program works easily: player 1 writes a word and player 2 has to guess it. Player 2 writes a letter and my program goes through the word and sees if it is in there. If it is, the program will add that letter to the "litereBune" vector which contains all the matches, otherwise, it will add it to the "litereRele" which is the vector for bad letters. Also, if your letter does not match, the "incercari" integer, which is set by default with 6, will decrement, and if it goes down to 0, player 2 will lose the game. It also has a graphic interface, which shows you the curent state of the game ( shows you the little man hanging ).
+#Hangman
+
+- C++
+- OOP
+- STL
+- graphic interface (bgi)
+ 
+ ### About gameplay
+ - 2 players: 1st player writes a word and 2nd player tries to guess it.
+ - the second player has 6 lives
